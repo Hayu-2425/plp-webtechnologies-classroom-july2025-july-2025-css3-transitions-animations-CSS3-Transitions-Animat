@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CSS & JS Interactive Experience</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>🌟 Interactive Animation Page</h1>
+
+  <!-- Button with hover effect -->
+  <button id="animateBtn">Click Me</button>
+
+  <!-- Box that will animate -->
+  <div id="animatedBox"></div>
+
+  <!-- Card to flip -->
+  <div class="card" id="flipCard">
+    <div class="card-inner">
+      <div class="card-front">Front</div>
+      <div class="card-back">Back</div>
+    </div>
+  </div>
+
+  <!-- Popup -->
+  <button onclick="togglePopup()">Toggle Popup</button>
+  <div id="popup" class="popup hidden">
+    This is a popup!
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
